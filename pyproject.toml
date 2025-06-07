@@ -1,0 +1,27 @@
+[project]
+name = "reddit-city-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "praw>=7.7.1",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.11.5",
+    "loguru>=0.7.3",
+    "pydantic-settings>=2.9.1",
+    "tqdm>=4.67.1",
+    "pandas>=2.3.0",
+    "numpy>=2.2.6",
+    "matplotlib>=3.10.3",
+    "pip>=25.1.1",
+    "ipython>=9.3.0",
+    "jupyter>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "isort>=6.0.1",
+    "ruff>=0.11.12",
+]
